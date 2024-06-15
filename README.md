@@ -1,2 +1,2 @@
-# Ministore
-Hello All , this is my first responsive website 
+# ecommerce-web
+ This is my first responsive website

@@ -1,0 +1,22 @@
+.button1{
+    position: relative;
+    padding-left: 100px;
+    vertical-align:middle;
+}
+.a1{
+    color:black;
+}
+.a1:hover{
+    color: black;
+    text-decoration: none;
+}
+.ul2{
+    list-style-type: none;
+}
+.a2{
+    text-decoration: none;
+    color:grey;
+}
+.heading{
+    padding-left: 100px;
+}

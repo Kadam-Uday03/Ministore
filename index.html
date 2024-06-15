@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniStore</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <div class="col-lg-6 col-md-6">
+        <img src="./images/main-logo.png" alt="Main Logo">
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-uppercase">
+            <li class="nav-item px-2">
+              <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-dark" href="#">services</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-dark" href="#">product</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-dark" href="#">watches</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-dark" href="#">sale</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-dark" href="#">blog</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">about</a></li>
+                <li><a class="dropdown-item" href="#">blog</a></li>
+                <li><a class="dropdown-item" href="#">shop</a></li>
+                <li><a class="dropdown-item" href="#">Cart</a></li>
+                <li><a class="dropdown-item" href="#">checkout</a></li>
+                <li><a class="dropdown-item" href="#">single post</a></li>
+                <li><a class="dropdown-item" href="#">single product</a></li>
+                <li><a class="dropdown-item" href="#">contact</a></li>
+              </ul>
+            </li>
+            <div class="navbar-icon d-flex pt-2 ps-4">
+              <li class="icon pe-3">
+                <i class="bi bi-search"></i>
+              </li>
+              <li class="icon pe-3">
+                <i class="bi bi-person-fill"></i>
+              </li>
+              <li class="icon pe-3">
+                <i class="bi bi-cart-fill"></i>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner bg-dark">
+      <div class="carousel-item active">
+        <div class="main">
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-6 col-md-6">
+                <div class="content m-3">
+                  <h1 class="display-2 text-uppercase text-light">Your products are great.</h1>
+                  <a href="#" class="btn btn-outline-info btn-light text-dark">Shop Product</a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-5">
+                <div class="image">
+                  <img class="img-fluid" src="./images/banner-image.png" alt="Banner">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="main">
+          <div class="container bg-light-blue">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-6 col-md-6">
+                <div class="content m-3">
+                  <h1 class="display-2 text-uppercase text-light">Technology hack you won't get</h1>
+                  <a href="#" class="btn btn-outline-success btn-light text-dark">Shop Product</a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-5">
+                <div class="image">
+                  <img class="img-fluid" src="./images/banner-image.png" alt="Banner">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="main mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ">
+          <span class="icon-box-icon">
+            <i class="bi bi-cart3"></i>
+          </span>
+          <div class="icon-box-content ps-4">
+            <h3 class="card-title text-uppercase text-dark">Free Delivery</h3>
+            <p class="p1">Consectetur adipi elit lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="icon-box-icon">
+            <i class="bi bi-cart3"></i>
+          </span>
+          <div class="icon-box-content ps-4">
+            <h3 class="card-title text-uppercase text-dark">Quality Guarantee</h3>
+            <p class="p1">Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="icon-box-icon">
+            <i class="bi bi-tag"></i>
+          </span>
+          <div class="icon-box-content ps-4">
+            <h3 class="card-title text-uppercase text-dark">Daily Offers</h3>
+            <p class="p1">Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="icon-box-icon">
+            <i class="bi bi-shield-fill-plus"></i>
+          </span>
+          <div class="icon-box-content ps-4">
+            <h3 class="card-title text-uppercase text-dark">100% Secure Payment</h3>
+            <p class="p1">Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="content">
+            <h3 class="text-uppercase">Mobile Products</h3>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="content text-end">
+            <a href="#" class="a1 text-uppercase">Go to Shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main23">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item1.jpg" class="img-fluid" alt="iPhone 10">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">iPhone 10</h4>
+              <h5 class="me-4" style="color: lightblue;">$980</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item2.jpg" class="img-fluid" alt="iPhone 11">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">iPhone 11</h4>
+              <h5 class="ms-auto" style="color: lightblue;">$1100</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item3.jpg" class="img-fluid" alt="iPhone 8">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">iPhone 8</h4>
+              <h5 class="ms-auto" style="color: lightblue;">$500</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item4.jpg" class="img-fluid" alt="iPhone X">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">iPhone X</h4>
+              <h5 class="ms-auto" style="color: lightblue;">$800</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="content">
+            <h3 class="text-uppercase">smart watches</h3>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="content text-end">
+            <a href="#" class="a1 text-uppercase">go to shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main23">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc ">
+            <img src="./images/product-item6.jpg" class="img-fluid" alt="">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">pink watch</h4>
+              <h5 class="ms-auto " style="color: lightblue;">$870</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item7.jpg" class="img-fluid" alt="">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">heavy watch</h4>
+              <h5 class="ms-auto" style="color: lightblue;">$680</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item8.jpg" class="img-fluid" alt="">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">spotted watch</h4>
+              <h5 class="ms-auto " style="color: lightblue;">$750</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="imgcc">
+            <img src="./images/product-item9.jpg" class="img-fluid" alt="">
+            <div class="abc d-flex">
+              <h4 class="d-inline text-uppercase">black watch</h4>
+              <h5 class="ms-auto " style="color: lightblue;">$650</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main bg-dark mt-5">
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="content">
+            <h3 class="display-7 text-uppercase text-light">10% off</h3>
+            <h3 class="display-1 text-uppercase text-light">new year sale</h3>
+            <a href="#" class="btn btn-outline-info btn-light text-dark">Shop Sale</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5">
+          <div class="image">
+            <img class="img-fluid" src="./images/single-image1.png" alt="banner">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="content">
+            <h3 class="text-uppercase">latest post</h3>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="content text-end">
+            <a href="#" class="a1 text-uppercase">read blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main23">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="imgcc">
+            <img src="./images/post-item1.jpg" class="img-fluid" alt="">
+            <div class="abc pt-4">
+              <h6 class="h6 text-uppercase">FEB 22, 2023 - GADGETS</h6>
+              <h5 class="text-dark">GET SOME COOL GADGETS IN 2023</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="imgcc">
+            <img src="./images/post-item2.jpg" class="img-fluid" alt="">
+            <div class="abc pt-4">
+              <h6 class="h6 text-uppercase">FEB 25, 2023 - TECHNOLOGY</h6>
+              <h5 class="text-dark">TECHNOLOGY HACK YOU WON'T GET</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="imgcc">
+            <img src="./images/post-item3.jpg" class="img-fluid" alt="">
+            <div class="abc pt-4">
+              <h6 class="h6 text-uppercase">FEB 22, 2023 - CAMERA</h6>
+              <h5 class="text-dark">TOP 10 SMALL CAMERA IN THE WORLD</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="main bg-dark mt-5 p-5">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="content m-3">
+            <h1 class="display-5 text-uppercase text-light">subscribe us now</h1>
+            <p class="text-uppercase text-light">Get latest news, updates and deals directly mailed to your inbox.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <form class="d-flex" role="search">
+            <div class="col-md-12 col-lg-6">
+              <input class="form-control" type="email" placeholder="Your email address here" aria-label="Search">
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <button class="btn btn-info me-3 text-light px-5" type="submit">Subscribe</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 class="heading text-uppercase mt-5">shop our insta</h1>
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="content">
+            <img src="./images/insta-item1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="content">
+            <img src="./images/product-item7.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="content">
+            <img src="./images/insta-item3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="content">
+            <img src="./images/insta-item4.jpg" class="img-fluid" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img src="./images/main-logo.png" alt="">
+          <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio
+            erat
+            nullam fringilla.</p>
+          <div class="icon1 mt-3">
+            <i class="bi bi-facebook px-3"></i>
+            <i class="bi bi-instagram px-3"></i>
+            <i class="bi bi-skype px-3"></i>
+            <i class="bi bi-linkedin px-3"></i>
+            <i class="bi bi-youtube px-3 "></i>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="content">
+            <h3 class="text-uppercase">quick links</h3>
+            <ul class="ul2">
+              <li class="li2">
+                <a href="#" class="a2 text-uppercase">home</a>
+              </li>
+              <li class="li2">
+                <a href="#" class="a2 text-uppercase">about</a>
+              </li>
+              <li class="li2">
+                <a href="#" class="a2 text-uppercase">shop</a>
+              </li>
+              <li class="li2">
+                <a href="#" class="a2 text-uppercase">blogs</a>
+              </li>
+              <li class="li2">
+                <a href="#" class="a2 text-uppercase">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-uppercase">help & info help</h3>
+          <ul class="ul2">
+            <li class="li2">
+              <a href="#" class="a2 text-uppercase">track your order</a>
+            </li>
+            <li class="li2">
+              <a href="#" class="a2 text-uppercase">return policies</a>
+            </li>
+            <li class="li2">
+              <a href="#" class="a2 text-uppercase">shipping + delivery</a>
+            </li>
+            <li class="li2">
+              <a href="#" class="a2 text-uppercase">contact us</a>
+            </li>
+            <li class="li2">
+              <a href="#" class="a2 text-uppercase">faqs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-uppercase">contact us</h3>
+          <p class="text-secondary">
+            "do you have any quries or suggestions?"
+            <a href="#" class="a2 email">yourinfo@gmail.com</a>
+          </p>
+          <p>
+            If you need support? Just give us a call.
+            <a href="#" class="a2 email">+5551 1155 5115</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
